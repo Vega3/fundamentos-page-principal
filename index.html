@@ -1,57 +1,68 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
-        crossorigin="anonymous"
-        >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <title>Reservas Gym UdeM</title>
-    <link rel="stylesheet" href="./styles.css/styles.css">
-</head>
-<body>
-    <div class="fondo">
-    <header>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <header>
         <div>
-            <nav class="navbar navbar-expand-lg bg-red navbar-red " style="background-color: #c70606";>
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./img/Logo_UdeM.png" alt="logo Udemedellin" width="200" height="60" ></a>
-                    <div>
-                        <ul>
-                            <p> Teléfono: (604) 5904500</p>
-                            <p>Correo: Reservas_gimnasio@Udemedellin.Edu.Co</p>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="cover d-flex align-items-center d-flex justify-content-center flex-column">
-                <h1>¿Quienes somos?</h1>
-                <div class="imagenchica">
-                    <img src="./img/gym4.jpg" alt="mujer haciendo ejercicio">
-                </div>
+          <nav
+            class="navbar navbar-expand-lg bg-red navbar-red"
+            style="background-color: #c70606"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="./img/Logo_UdeM.png"
+                  alt="logo Udemedellin"
+                  width="200"
+                  height="60"
+              /></a>
+              <div>
+                <ul>
+                  <p>Teléfono: (604) 5904500</p>
+                  <p>Correo: Reservas_gimnasio@Udemedellin.Edu.Co</p>
+                </ul>
+              </div>
             </div>
+          </nav>
+          <div
+            class="cover d-flex align-items-center d-flex justify-content-center flex-column"
+          >
+            <h1>¿Quienes somos?</h1>
+            <div class="imagenchica">
+              <img src="./img/gym4.jpg" alt="mujer haciendo ejercicio"  width="200" height="150"/>
+            </div>
+          </div>
         </div>
-    </header>
-    <label for="button">
+      </header>
         <div>
-            <div class="Inicio-de-Sesion"></divclass> 
-                    <button type="button" class="btn btn-primary">Inicio de Sesion</button>  
-            </div>                
-            <div class="Registrate">            
-                    <button type="button" class="btn btn-primary">Registrate</button>
-            </div>           
-            <div class="Horarios">
-                    <button type="button" class="btn btn-primary">Horarios</button>
-            </div>               
-            <div class="Inicio-de-Administrador">
-                    <button type="button" class="btn btn-primary">Inicio de Administrador</button>
-            </div>            
+          <div class="Inicio-de-Sesion">
+            <button type="button" class="button-inicio" onclick="window.open('direccion de inicio')">
+              Inicio de Sesion
+            </button>
+          </div>
+          <div class="Registrate">
+            <button type="button" class="button-registro" onclick="window.open('direccion de registro')">Registrate</button>
+          </div>
+          <div class="Horarios">
+            <button type="button" class="button-horario" onclick="window.open('direccion de horaio')">Horarios</button>
+          </div>
+          <div class="Inicio-de-Administrador">
+            <button type="button" class="button-admin" onclick="window.open('direccion de inicio de admin')" >Inicio de Administrador</button>
+          </div>
         </div>
-    </label>
     </div>
-</body>
+  </body>
 </html>
